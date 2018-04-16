@@ -22,7 +22,7 @@ try:
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.ehlo()
-    server.login("nth.credenz16@gmail.com", "pisb1234")
+    server.login("nth.credenz16@gmail.com", "******")
     msg = "Hello!"
     count = 0
 
